@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		66AD92A02ACD4AF200FFD27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD929F2ACD4AF200FFD27C /* AppDelegate.swift */; };
-		66AD92A22ACD4AF200FFD27C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD92A12ACD4AF200FFD27C /* SceneDelegate.swift */; };
-		66AD92A42ACD4AF200FFD27C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD92A32ACD4AF200FFD27C /* ViewController.swift */; };
-		66AD92A72ACD4AF200FFD27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AD92A52ACD4AF200FFD27C /* Main.storyboard */; };
 		66AD92A92ACD4AF300FFD27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AD92A82ACD4AF300FFD27C /* Assets.xcassets */; };
 		66AD92AC2ACD4AF300FFD27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AD92AA2ACD4AF300FFD27C /* LaunchScreen.storyboard */; };
 		66AD92B72ACD4AF400FFD27C /* CafeNghenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD92B62ACD4AF400FFD27C /* CafeNghenTests.swift */; };
 		66AD92C12ACD4AF400FFD27C /* CafeNghenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD92C02ACD4AF400FFD27C /* CafeNghenUITests.swift */; };
 		66AD92C32ACD4AF400FFD27C /* CafeNghenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD92C22ACD4AF400FFD27C /* CafeNghenUITestsLaunchTests.swift */; };
+		66AD92D62ACD4E6000FFD27C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD92D42ACD4E6000FFD27C /* HomeViewController.swift */; };
+		66AD92D72ACD4E6000FFD27C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD92D52ACD4E6000FFD27C /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 /* Begin PBXFileReference section */
 		66AD929C2ACD4AF200FFD27C /* CafeNghen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeNghen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AD929F2ACD4AF200FFD27C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66AD92A12ACD4AF200FFD27C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66AD92A32ACD4AF200FFD27C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66AD92A62ACD4AF200FFD27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66AD92A82ACD4AF300FFD27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66AD92AB2ACD4AF300FFD27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66AD92AD2ACD4AF300FFD27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		66AD92BC2ACD4AF400FFD27C /* CafeNghenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeNghenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AD92C02ACD4AF400FFD27C /* CafeNghenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeNghenUITests.swift; sourceTree = "<group>"; };
 		66AD92C22ACD4AF400FFD27C /* CafeNghenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeNghenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66AD92D42ACD4E6000FFD27C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		66AD92D52ACD4E6000FFD27C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +97,10 @@
 		66AD929E2ACD4AF200FFD27C /* CafeNghen */ = {
 			isa = PBXGroup;
 			children = (
-				66AD929F2ACD4AF200FFD27C /* AppDelegate.swift */,
-				66AD92A12ACD4AF200FFD27C /* SceneDelegate.swift */,
-				66AD92A32ACD4AF200FFD27C /* ViewController.swift */,
-				66AD92A52ACD4AF200FFD27C /* Main.storyboard */,
-				66AD92A82ACD4AF300FFD27C /* Assets.xcassets */,
-				66AD92AA2ACD4AF300FFD27C /* LaunchScreen.storyboard */,
-				66AD92AD2ACD4AF300FFD27C /* Info.plist */,
+				66AD92D82ACD4F8C00FFD27C /* Data */,
+				66AD92D12ACD4D0A00FFD27C /* Screens */,
+				66AD92D02ACD4D0200FFD27C /* Sources */,
+				66AD92CF2ACD4CF800FFD27C /* Supports */,
 			);
 			path = CafeNghen;
 			sourceTree = "<group>";
@@ -125,6 +120,72 @@
 				66AD92C22ACD4AF400FFD27C /* CafeNghenUITestsLaunchTests.swift */,
 			);
 			path = CafeNghenUITests;
+			sourceTree = "<group>";
+		};
+		66AD92CF2ACD4CF800FFD27C /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				66AD929F2ACD4AF200FFD27C /* AppDelegate.swift */,
+				66AD92AD2ACD4AF300FFD27C /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		66AD92D02ACD4D0200FFD27C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				66AD92A82ACD4AF300FFD27C /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		66AD92D12ACD4D0A00FFD27C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				66AD92D32ACD4E5100FFD27C /* Home */,
+				66AD92D22ACD4D2E00FFD27C /* Splash */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		66AD92D22ACD4D2E00FFD27C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				66AD92AA2ACD4AF300FFD27C /* LaunchScreen.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		66AD92D32ACD4E5100FFD27C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66AD92D42ACD4E6000FFD27C /* HomeViewController.swift */,
+				66AD92D52ACD4E6000FFD27C /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		66AD92D82ACD4F8C00FFD27C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66AD92DA2ACD4FB100FFD27C /* Local */,
+				66AD92D92ACD4F9C00FFD27C /* Networking */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		66AD92D92ACD4F9C00FFD27C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		66AD92DA2ACD4FB100FFD27C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +294,7 @@
 			files = (
 				66AD92AC2ACD4AF300FFD27C /* LaunchScreen.storyboard in Resources */,
 				66AD92A92ACD4AF300FFD27C /* Assets.xcassets in Resources */,
-				66AD92A72ACD4AF200FFD27C /* Main.storyboard in Resources */,
+				66AD92D72ACD4E6000FFD27C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +319,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66AD92A42ACD4AF200FFD27C /* ViewController.swift in Sources */,
 				66AD92A02ACD4AF200FFD27C /* AppDelegate.swift in Sources */,
-				66AD92A22ACD4AF200FFD27C /* SceneDelegate.swift in Sources */,
+				66AD92D62ACD4E6000FFD27C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		66AD92A52ACD4AF200FFD27C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66AD92A62ACD4AF200FFD27C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66AD92AA2ACD4AF300FFD27C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,10 +496,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z839S848GQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CafeNghen/Info.plist;
+				INFOPLIST_FILE = CafeNghen/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -476,10 +528,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z839S848GQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CafeNghen/Info.plist;
+				INFOPLIST_FILE = CafeNghen/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
