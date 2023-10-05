@@ -5,11 +5,14 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="CafeNghen" customModuleProvider="target">
             <connections>
+                <outlet property="headerView" destination="OmN-Ig-AZe" id="oFg-mG-7km"/>
+                <outlet property="productByGroupTableView" destination="UxQ-Be-a0U" id="x5L-xY-EXF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,9 +20,36 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UxQ-Be-a0U">
+                    <rect key="frame" x="0.0" y="109" width="393" height="709"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OmN-Ig-AZe">
+                    <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="F0p-QV-ydN"/>
+                    </constraints>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <point key="canvasLocation" x="124" y="-12"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UxQ-Be-a0U" secondAttribute="trailing" id="6vQ-DL-psp"/>
+                <constraint firstItem="OmN-Ig-AZe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NuB-XV-xNi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="UxQ-Be-a0U" secondAttribute="bottom" id="eaM-Uj-6r4"/>
+                <constraint firstItem="OmN-Ig-AZe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kvx-TE-rXO"/>
+                <constraint firstItem="UxQ-Be-a0U" firstAttribute="top" secondItem="OmN-Ig-AZe" secondAttribute="bottom" id="yD0-dS-qnW"/>
+                <constraint firstItem="UxQ-Be-a0U" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yM1-b9-Ur7"/>
+                <constraint firstItem="OmN-Ig-AZe" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="yX6-A3-tNt"/>
+            </constraints>
+            <point key="canvasLocation" x="122.90076335877862" y="-12.67605633802817"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
