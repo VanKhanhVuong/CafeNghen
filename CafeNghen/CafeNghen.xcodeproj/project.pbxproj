@@ -32,6 +32,13 @@
 		66AD93052ACE3FB000FFD27C /* CategoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD93042ACE3FB000FFD27C /* CategoryView.xib */; };
 		66AD93092ACE415C00FFD27C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD93072ACE415C00FFD27C /* CategoryCell.swift */; };
 		66AD930A2ACE415C00FFD27C /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD93082ACE415C00FFD27C /* CategoryCell.xib */; };
+		66AD930E2ACE481600FFD27C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD930C2ACE481600FFD27C /* DetailViewController.swift */; };
+		66AD930F2ACE481600FFD27C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD930D2ACE481600FFD27C /* DetailViewController.xib */; };
+		66AD93122ACE4DE200FFD27C /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD93112ACE4DE200FFD27C /* DropDownView.swift */; };
+		66AD93142ACE4E1D00FFD27C /* DropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD93132ACE4E1D00FFD27C /* DropDownView.xib */; };
+		66AD93172ACE55C200FFD27C /* ProductNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD93162ACE55C200FFD27C /* ProductNameView.swift */; };
+		66AD93192ACE55CF00FFD27C /* ProductNameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD93182ACE55CF00FFD27C /* ProductNameView.xib */; };
+		66AD931B2ACE723D00FFD27C /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD931A2ACE723D00FFD27C /* UIButton+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +88,13 @@
 		66AD93042ACE3FB000FFD27C /* CategoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryView.xib; sourceTree = "<group>"; };
 		66AD93072ACE415C00FFD27C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		66AD93082ACE415C00FFD27C /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		66AD930C2ACE481600FFD27C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		66AD930D2ACE481600FFD27C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		66AD93112ACE4DE200FFD27C /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		66AD93132ACE4E1D00FFD27C /* DropDownView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownView.xib; sourceTree = "<group>"; };
+		66AD93162ACE55C200FFD27C /* ProductNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductNameView.swift; sourceTree = "<group>"; };
+		66AD93182ACE55CF00FFD27C /* ProductNameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductNameView.xib; sourceTree = "<group>"; };
+		66AD931A2ACE723D00FFD27C /* UIButton+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +192,7 @@
 		66AD92D12ACD4D0A00FFD27C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				66AD930B2ACE47AD00FFD27C /* Detail */,
 				66AD92D32ACD4E5100FFD27C /* Home */,
 				66AD92D22ACD4D2E00FFD27C /* Splash */,
 			);
@@ -239,6 +254,7 @@
 				66AD92DD2ACD52D800FFD27C /* ClassName+Extention.swift */,
 				66AD92DF2ACD52EF00FFD27C /* UITableView+Extention.swift */,
 				66AD92E12ACD530A00FFD27C /* UICollectionView+Extention.swift */,
+				66AD931A2ACE723D00FFD27C /* UIButton+Extention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -273,6 +289,8 @@
 		66AD92E62ACD536600FFD27C /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				66AD93152ACE556400FFD27C /* ProductNameView */,
+				66AD93102ACE4DBB00FFD27C /* DropDownView */,
 				66AD93012ACE3F8700FFD27C /* CategoryView */,
 				66AD92FC2ACD7F0E00FFD27C /* SlideView */,
 				66AD92FB2ACD7E2D00FFD27C /* NavigationView */,
@@ -349,6 +367,33 @@
 				66AD93082ACE415C00FFD27C /* CategoryCell.xib */,
 			);
 			path = CategoryCell;
+			sourceTree = "<group>";
+		};
+		66AD930B2ACE47AD00FFD27C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				66AD930C2ACE481600FFD27C /* DetailViewController.swift */,
+				66AD930D2ACE481600FFD27C /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		66AD93102ACE4DBB00FFD27C /* DropDownView */ = {
+			isa = PBXGroup;
+			children = (
+				66AD93112ACE4DE200FFD27C /* DropDownView.swift */,
+				66AD93132ACE4E1D00FFD27C /* DropDownView.xib */,
+			);
+			path = DropDownView;
+			sourceTree = "<group>";
+		};
+		66AD93152ACE556400FFD27C /* ProductNameView */ = {
+			isa = PBXGroup;
+			children = (
+				66AD93162ACE55C200FFD27C /* ProductNameView.swift */,
+				66AD93182ACE55CF00FFD27C /* ProductNameView.xib */,
+			);
+			path = ProductNameView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,10 +504,13 @@
 				66AD93052ACE3FB000FFD27C /* CategoryView.xib in Resources */,
 				66AD92A92ACD4AF300FFD27C /* Assets.xcassets in Resources */,
 				66AD92D72ACD4E6000FFD27C /* HomeViewController.xib in Resources */,
+				66AD930F2ACE481600FFD27C /* DetailViewController.xib in Resources */,
 				66AD92F62ACD583400FFD27C /* ProductCell.xib in Resources */,
 				66AD930A2ACE415C00FFD27C /* CategoryCell.xib in Resources */,
+				66AD93192ACE55CF00FFD27C /* ProductNameView.xib in Resources */,
 				66AD92F02ACD579000FFD27C /* ProductByGroupCell.xib in Resources */,
 				66AD93002ACD7F8600FFD27C /* SliderView.xib in Resources */,
+				66AD93142ACE4E1D00FFD27C /* DropDownView.xib in Resources */,
 				66AD92FA2ACD720F00FFD27C /* SectionView.xib in Resources */,
 				66AD92EA2ACD53FA00FFD27C /* SlideCell.xib in Resources */,
 			);
@@ -489,13 +537,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AD930E2ACE481600FFD27C /* DetailViewController.swift in Sources */,
 				66AD92E02ACD52EF00FFD27C /* UITableView+Extention.swift in Sources */,
 				66AD92E92ACD53FA00FFD27C /* SlideCell.swift in Sources */,
+				66AD93122ACE4DE200FFD27C /* DropDownView.swift in Sources */,
 				66AD92F82ACD720000FFD27C /* SectionView.swift in Sources */,
 				66AD92EF2ACD579000FFD27C /* ProductByGroupCell.swift in Sources */,
+				66AD931B2ACE723D00FFD27C /* UIButton+Extention.swift in Sources */,
 				66AD92E22ACD530A00FFD27C /* UICollectionView+Extention.swift in Sources */,
 				66AD93032ACE3FA500FFD27C /* CategoryView.swift in Sources */,
 				66AD92A02ACD4AF200FFD27C /* AppDelegate.swift in Sources */,
+				66AD93172ACE55C200FFD27C /* ProductNameView.swift in Sources */,
 				66AD92F52ACD583400FFD27C /* ProductCell.swift in Sources */,
 				66AD92D62ACD4E6000FFD27C /* HomeViewController.swift in Sources */,
 				66AD92DE2ACD52D800FFD27C /* ClassName+Extention.swift in Sources */,
