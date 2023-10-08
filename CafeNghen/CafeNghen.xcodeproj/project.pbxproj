@@ -23,6 +23,8 @@
 		665AB7972ACFFCA800328192 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665AB7952ACFFCA800328192 /* AccountViewController.xib */; };
 		665AB79A2AD009B700328192 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665AB7982AD009B700328192 /* CheckoutViewController.swift */; };
 		665AB79B2AD009B800328192 /* CheckoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665AB7992AD009B700328192 /* CheckoutViewController.xib */; };
+		668FCE682AD2A69B001D613C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668FCE662AD2A69B001D613C /* TabBarController.swift */; };
+		668FCE692AD2A69B001D613C /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668FCE672AD2A69B001D613C /* TabBarController.xib */; };
 		66AD92A02ACD4AF200FFD27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD929F2ACD4AF200FFD27C /* AppDelegate.swift */; };
 		66AD92A92ACD4AF300FFD27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AD92A82ACD4AF300FFD27C /* Assets.xcassets */; };
 		66AD92AC2ACD4AF300FFD27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AD92AA2ACD4AF300FFD27C /* LaunchScreen.storyboard */; };
@@ -63,6 +65,16 @@
 		66AD932E2ACEA85400FFD27C /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD932C2ACEA85400FFD27C /* GroupViewController.xib */; };
 		66AD93322ACEAEC700FFD27C /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD93302ACEAEC700FFD27C /* FilterViewController.swift */; };
 		66AD93332ACEAEC700FFD27C /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AD93312ACEAEC700FFD27C /* FilterViewController.xib */; };
+		66BAF32C2AD24EDB007D24D6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BAF32A2AD24EDB007D24D6 /* SignInViewController.swift */; };
+		66BAF32D2AD24EDB007D24D6 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BAF32B2AD24EDB007D24D6 /* SignInViewController.xib */; };
+		66BAF3312AD2529D007D24D6 /* HeaderLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BAF3302AD2529D007D24D6 /* HeaderLoginView.swift */; };
+		66BAF3332AD252BB007D24D6 /* HeaderLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BAF3322AD252BB007D24D6 /* HeaderLoginView.xib */; };
+		66BAF3352AD25478007D24D6 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BAF3342AD25478007D24D6 /* InputView.swift */; };
+		66BAF3372AD25481007D24D6 /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BAF3362AD25481007D24D6 /* InputView.xib */; };
+		66BAF33A2AD25A3A007D24D6 /* NumberCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BAF3392AD25A3A007D24D6 /* NumberCodeView.swift */; };
+		66BAF33C2AD25A46007D24D6 /* NumberCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BAF33B2AD25A46007D24D6 /* NumberCodeView.xib */; };
+		66BAF33F2AD26101007D24D6 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BAF33E2AD26101007D24D6 /* SubmitView.swift */; };
+		66BAF3412AD2610A007D24D6 /* SubmitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BAF3402AD2610A007D24D6 /* SubmitView.xib */; };
 		66E719DE2ACEB75000000F79 /* FilterItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E719DC2ACEB75000000F79 /* FilterItemCell.swift */; };
 		66E719DF2ACEB75000000F79 /* FilterItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E719DD2ACEB75000000F79 /* FilterItemCell.xib */; };
 		66E719E22ACEBB1900000F79 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E719E02ACEBB1900000F79 /* CartItemCell.swift */; };
@@ -105,6 +117,8 @@
 		665AB7952ACFFCA800328192 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
 		665AB7982AD009B700328192 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		665AB7992AD009B700328192 /* CheckoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutViewController.xib; sourceTree = "<group>"; };
+		668FCE662AD2A69B001D613C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		668FCE672AD2A69B001D613C /* TabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 		66AD929C2ACD4AF200FFD27C /* CafeNghen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeNghen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AD929F2ACD4AF200FFD27C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66AD92A82ACD4AF300FFD27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +163,16 @@
 		66AD932C2ACEA85400FFD27C /* GroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
 		66AD93302ACEAEC700FFD27C /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		66AD93312ACEAEC700FFD27C /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		66BAF32A2AD24EDB007D24D6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		66BAF32B2AD24EDB007D24D6 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		66BAF3302AD2529D007D24D6 /* HeaderLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLoginView.swift; sourceTree = "<group>"; };
+		66BAF3322AD252BB007D24D6 /* HeaderLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderLoginView.xib; sourceTree = "<group>"; };
+		66BAF3342AD25478007D24D6 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		66BAF3362AD25481007D24D6 /* InputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
+		66BAF3392AD25A3A007D24D6 /* NumberCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCodeView.swift; sourceTree = "<group>"; };
+		66BAF33B2AD25A46007D24D6 /* NumberCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberCodeView.xib; sourceTree = "<group>"; };
+		66BAF33E2AD26101007D24D6 /* SubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitView.swift; sourceTree = "<group>"; };
+		66BAF3402AD2610A007D24D6 /* SubmitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmitView.xib; sourceTree = "<group>"; };
 		66E719DC2ACEB75000000F79 /* FilterItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterItemCell.swift; sourceTree = "<group>"; };
 		66E719DD2ACEB75000000F79 /* FilterItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterItemCell.xib; sourceTree = "<group>"; };
 		66E719E02ACEBB1900000F79 /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
@@ -254,6 +278,15 @@
 			path = InfoView;
 			sourceTree = "<group>";
 		};
+		668FCE652AD2A660001D613C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				668FCE662AD2A69B001D613C /* TabBarController.swift */,
+				668FCE672AD2A69B001D613C /* TabBarController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		66AD92932ACD4AF200FFD27C = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +357,8 @@
 		66AD92D12ACD4D0A00FFD27C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				668FCE652AD2A660001D613C /* TabBar */,
+				66BAF3292AD24EC8007D24D6 /* SignIn */,
 				665AB77F2ACFDB8900328192 /* Checkout */,
 				665AB77E2ACFDB4700328192 /* Account */,
 				665AB7752ACFACCC00328192 /* Favorites */,
@@ -434,6 +469,10 @@
 		66AD92E62ACD536600FFD27C /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				66BAF33D2AD25F65007D24D6 /* SubmitView */,
+				66BAF3382AD259E8007D24D6 /* NumberCodeView */,
+				66BAF32F2AD25272007D24D6 /* InputView */,
+				66BAF32E2AD25218007D24D6 /* HeaderLoginView */,
 				665AB78F2ACFF66300328192 /* InfoView */,
 				665AB78A2ACFE00E00328192 /* OrderStatusView */,
 				66AD93152ACE556400FFD27C /* ProductNameView */,
@@ -579,6 +618,51 @@
 			path = Filter;
 			sourceTree = "<group>";
 		};
+		66BAF3292AD24EC8007D24D6 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				66BAF32A2AD24EDB007D24D6 /* SignInViewController.swift */,
+				66BAF32B2AD24EDB007D24D6 /* SignInViewController.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		66BAF32E2AD25218007D24D6 /* HeaderLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				66BAF3302AD2529D007D24D6 /* HeaderLoginView.swift */,
+				66BAF3322AD252BB007D24D6 /* HeaderLoginView.xib */,
+			);
+			path = HeaderLoginView;
+			sourceTree = "<group>";
+		};
+		66BAF32F2AD25272007D24D6 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				66BAF3342AD25478007D24D6 /* InputView.swift */,
+				66BAF3362AD25481007D24D6 /* InputView.xib */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		66BAF3382AD259E8007D24D6 /* NumberCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				66BAF3392AD25A3A007D24D6 /* NumberCodeView.swift */,
+				66BAF33B2AD25A46007D24D6 /* NumberCodeView.xib */,
+			);
+			path = NumberCodeView;
+			sourceTree = "<group>";
+		};
+		66BAF33D2AD25F65007D24D6 /* SubmitView */ = {
+			isa = PBXGroup;
+			children = (
+				66BAF33E2AD26101007D24D6 /* SubmitView.swift */,
+				66BAF3402AD2610A007D24D6 /* SubmitView.xib */,
+			);
+			path = SubmitView;
+			sourceTree = "<group>";
+		};
 		66E719D92ACEB5F300000F79 /* FilterItemCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -712,17 +796,21 @@
 			files = (
 				66E719DF2ACEB75000000F79 /* FilterItemCell.xib in Resources */,
 				66AD92AC2ACD4AF300FFD27C /* LaunchScreen.storyboard in Resources */,
+				66BAF33C2AD25A46007D24D6 /* NumberCodeView.xib in Resources */,
 				66AD93052ACE3FB000FFD27C /* CategoryView.xib in Resources */,
 				665AB78E2ACFE08200328192 /* OrderStatusView.xib in Resources */,
 				66E719E32ACEBB1900000F79 /* CartItemCell.xib in Resources */,
 				66AD92A92ACD4AF300FFD27C /* Assets.xcassets in Resources */,
 				66AD92D72ACD4E6000FFD27C /* HomeViewController.xib in Resources */,
 				665AB7972ACFFCA800328192 /* AccountViewController.xib in Resources */,
+				668FCE692AD2A69B001D613C /* TabBarController.xib in Resources */,
 				66AD932E2ACEA85400FFD27C /* GroupViewController.xib in Resources */,
 				665AB7932ACFF68200328192 /* InfoView.xib in Resources */,
 				66AD930F2ACE481600FFD27C /* DetailViewController.xib in Resources */,
 				66E719E72ACEE54800000F79 /* FavoriteItemCell.xib in Resources */,
 				66AD92F62ACD583400FFD27C /* ProductCell.xib in Resources */,
+				66BAF3372AD25481007D24D6 /* InputView.xib in Resources */,
+				66BAF3332AD252BB007D24D6 /* HeaderLoginView.xib in Resources */,
 				66AD930A2ACE415C00FFD27C /* CategoryCell.xib in Resources */,
 				66AD93192ACE55CF00FFD27C /* ProductNameView.xib in Resources */,
 				66AD92F02ACD579000FFD27C /* ProductByGroupCell.xib in Resources */,
@@ -733,10 +821,12 @@
 				665AB79B2AD009B800328192 /* CheckoutViewController.xib in Resources */,
 				665AB77D2ACFC11200328192 /* FavoritesViewController.xib in Resources */,
 				665AB7892ACFDDE100328192 /* CheckoutItemCell.xib in Resources */,
+				66BAF3412AD2610A007D24D6 /* SubmitView.xib in Resources */,
 				66AD92FA2ACD720F00FFD27C /* SectionView.xib in Resources */,
 				66AD93202ACE980000FFD27C /* ExploreViewController.xib in Resources */,
 				66AD93292ACE9CED00FFD27C /* CategoryCollectionCell.xib in Resources */,
 				665AB7792ACFB12200328192 /* CartViewController.xib in Resources */,
+				66BAF32D2AD24EDB007D24D6 /* SignInViewController.xib in Resources */,
 				66AD92EA2ACD53FA00FFD27C /* SlideCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -778,7 +868,9 @@
 				66AD931F2ACE980000FFD27C /* ExploreViewController.swift in Sources */,
 				66AD92E22ACD530A00FFD27C /* UICollectionView+Extention.swift in Sources */,
 				66AD93282ACE9CED00FFD27C /* CategoryCollectionCell.swift in Sources */,
+				66BAF33A2AD25A3A007D24D6 /* NumberCodeView.swift in Sources */,
 				66AD93032ACE3FA500FFD27C /* CategoryView.swift in Sources */,
+				66BAF33F2AD26101007D24D6 /* SubmitView.swift in Sources */,
 				66AD92A02ACD4AF200FFD27C /* AppDelegate.swift in Sources */,
 				66AD93172ACE55C200FFD27C /* ProductNameView.swift in Sources */,
 				665AB79A2AD009B700328192 /* CheckoutViewController.swift in Sources */,
@@ -787,10 +879,14 @@
 				66AD93322ACEAEC700FFD27C /* FilterViewController.swift in Sources */,
 				66AD92F52ACD583400FFD27C /* ProductCell.swift in Sources */,
 				66AD92D62ACD4E6000FFD27C /* HomeViewController.swift in Sources */,
+				66BAF3352AD25478007D24D6 /* InputView.swift in Sources */,
 				665AB7842ACFDBFD00328192 /* AccountItemCell.swift in Sources */,
 				66AD92DE2ACD52D800FFD27C /* ClassName+Extention.swift in Sources */,
 				665AB7962ACFFCA800328192 /* AccountViewController.swift in Sources */,
+				66BAF32C2AD24EDB007D24D6 /* SignInViewController.swift in Sources */,
+				668FCE682AD2A69B001D613C /* TabBarController.swift in Sources */,
 				66AD92FE2ACD7F7600FFD27C /* SliderView.swift in Sources */,
+				66BAF3312AD2529D007D24D6 /* HeaderLoginView.swift in Sources */,
 				66AD93092ACE415C00FFD27C /* CategoryCell.swift in Sources */,
 				665AB7882ACFDDE100328192 /* CheckoutItemCell.swift in Sources */,
 			);

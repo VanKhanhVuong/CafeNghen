@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputView" customModule="CafeNghen" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="dtm-Cf-67a"/>
+                <outlet property="inputTextField" destination="Cym-8a-97D" id="9Qx-j3-g69"/>
+                <outlet property="titleLabel" destination="rsN-IB-nNw" id="Iay-Mr-ZyO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="479" height="118"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsN-IB-nNw">
+                    <rect key="frame" x="20" y="20" width="439" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                    <color key="textColor" systemColor="systemGray3Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cym-8a-97D">
+                    <rect key="frame" x="10" y="58" width="459" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="17d-Gs-2Bc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cym-8a-97D" secondAttribute="bottom" constant="10" id="8M2-sM-KGb"/>
+                <constraint firstItem="Cym-8a-97D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Dhl-12-SSG"/>
+                <constraint firstAttribute="trailing" secondItem="Cym-8a-97D" secondAttribute="trailing" constant="10" id="Iay-3j-Jsf"/>
+                <constraint firstAttribute="trailing" secondItem="rsN-IB-nNw" secondAttribute="trailing" constant="20" id="Qto-xF-rSK"/>
+                <constraint firstItem="rsN-IB-nNw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Ue9-T7-PVR"/>
+                <constraint firstItem="Cym-8a-97D" firstAttribute="top" secondItem="rsN-IB-nNw" secondAttribute="bottom" constant="20" id="Wgl-nY-Twd"/>
+                <constraint firstItem="rsN-IB-nNw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="vLI-7Q-S8H"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="124.42748091603053" y="328.87323943661971"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

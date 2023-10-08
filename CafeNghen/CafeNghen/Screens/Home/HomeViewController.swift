@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
     }
     
     private func setupUI() {
+        self.navigationController?.isNavigationBarHidden = true
         let header = SliderView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 150))
         productByGroupTableView.tableHeaderView = header
         
