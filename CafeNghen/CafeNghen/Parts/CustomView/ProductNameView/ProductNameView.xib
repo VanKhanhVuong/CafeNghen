@@ -25,47 +25,39 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="245"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tra Tac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bth-N0-KFi">
-                    <rect key="frame" x="20" y="18" width="67.333333333333329" height="24"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sw-ys-PLv">
-                    <rect key="frame" x="343" y="5" width="50" height="50"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="50" id="63p-W3-wMh"/>
-                        <constraint firstAttribute="height" constant="50" id="8KS-hF-ucj"/>
-                    </constraints>
-                    <color key="tintColor" systemColor="systemRedColor"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system" title=" "/>
-                    <connections>
-                        <action selector="likeTapped:" destination="-1" eventType="touchUpInside" id="rnA-uj-PBf"/>
-                    </connections>
-                </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Ly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oud-UP-BtN">
-                    <rect key="frame" x="20" y="47" width="31.666666666666671" height="21.666666666666671"/>
-                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                    <color key="textColor" systemColor="systemGray2Color"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9wc-uD-j1C">
+                    <rect key="frame" x="0.0" y="0.0" width="262" height="45.666666666666664"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tra Tac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bth-N0-KFi">
+                            <rect key="frame" x="0.0" y="0.0" width="262" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Ly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oud-UP-BtN">
+                            <rect key="frame" x="0.0" y="24" width="262" height="21.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <color key="textColor" systemColor="systemGray2Color"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLk-MA-SoB">
-                    <rect key="frame" x="0.0" y="73.666666666666671" width="146.66666666666666" height="60.000000000000014"/>
+                    <rect key="frame" x="0.0" y="45.666666666666664" width="131" height="29.999999999999993"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6p-Jh-Xsl">
-                            <rect key="frame" x="0.0" y="0.0" width="49" height="60"/>
+                            <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="30"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" image="minus" catalog="system"/>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs1-oR-VFw">
-                            <rect key="frame" x="49" y="0.0" width="48.666666666666657" height="60"/>
+                            <rect key="frame" x="43.666666666666671" y="0.0" width="43.666666666666671" height="30"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                             <color key="textColor" systemColor="systemGray2Color"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaH-e5-58e">
-                            <rect key="frame" x="97.666666666666671" y="0.0" width="49.000000000000014" height="60"/>
+                            <rect key="frame" x="87.333333333333329" y="0.0" width="43.666666666666671" height="30"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
                         </button>
@@ -78,7 +70,7 @@
                         <constraint firstItem="r6p-Jh-Xsl" firstAttribute="width" secondItem="PLk-MA-SoB" secondAttribute="width" multiplier="1/3" id="TtJ-fd-4eH"/>
                         <constraint firstItem="rs1-oR-VFw" firstAttribute="leading" secondItem="r6p-Jh-Xsl" secondAttribute="trailing" id="akP-xH-HHe"/>
                         <constraint firstItem="r6p-Jh-Xsl" firstAttribute="leading" secondItem="PLk-MA-SoB" secondAttribute="leading" id="dGk-Pl-6a3"/>
-                        <constraint firstAttribute="height" constant="60" id="fs6-IN-sLu"/>
+                        <constraint firstAttribute="height" constant="30" id="fs6-IN-sLu"/>
                         <constraint firstItem="rs1-oR-VFw" firstAttribute="top" secondItem="PLk-MA-SoB" secondAttribute="top" id="ic9-RF-Xd6"/>
                         <constraint firstAttribute="bottom" secondItem="rs1-oR-VFw" secondAttribute="bottom" id="kxD-Ev-7uY"/>
                         <constraint firstAttribute="trailing" secondItem="zaH-e5-58e" secondAttribute="trailing" id="lUc-I8-2b4"/>
@@ -87,25 +79,39 @@
                     </constraints>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okt-hJ-Nwz">
-                    <rect key="frame" x="336.33333333333331" y="91.666666666666671" width="36.666666666666686" height="24"/>
+                    <rect key="frame" x="329.66666666666669" y="48.666666666666664" width="36.666666666666686" height="23.999999999999993"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sw-ys-PLv">
+                    <rect key="frame" x="323" y="-2.3333333333333321" width="50" height="50.333333333333329"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="63p-W3-wMh"/>
+                        <constraint firstAttribute="height" constant="50" id="8KS-hF-ucj"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="systemRedColor"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system" title=" "/>
+                    <connections>
+                        <action selector="likeTapped:" destination="-1" eventType="touchUpInside" id="rnA-uj-PBf"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="Bth-N0-KFi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="5Br-YF-MHJ"/>
-                <constraint firstAttribute="centerX" secondItem="PLk-MA-SoB" secondAttribute="trailing" constant="50" id="AIL-vM-BeO"/>
-                <constraint firstItem="Bth-N0-KFi" firstAttribute="centerY" secondItem="5sw-ys-PLv" secondAttribute="centerY" id="DSv-cR-6pX"/>
                 <constraint firstItem="okt-hJ-Nwz" firstAttribute="centerY" secondItem="PLk-MA-SoB" secondAttribute="centerY" id="Ehh-je-5ai"/>
-                <constraint firstAttribute="trailing" secondItem="okt-hJ-Nwz" secondAttribute="trailing" constant="20" id="TTB-ug-daT"/>
-                <constraint firstItem="Oud-UP-BtN" firstAttribute="top" secondItem="Bth-N0-KFi" secondAttribute="bottom" constant="5" id="ezS-2N-0bc"/>
-                <constraint firstItem="Oud-UP-BtN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="gUz-lb-KZJ"/>
-                <constraint firstItem="PLk-MA-SoB" firstAttribute="top" secondItem="Oud-UP-BtN" secondAttribute="bottom" constant="5" id="jEe-4T-8rn"/>
-                <constraint firstItem="PLk-MA-SoB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jan-Gw-hKb"/>
-                <constraint firstItem="5sw-ys-PLv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="tXx-Qc-EU7"/>
-                <constraint firstAttribute="trailing" secondItem="5sw-ys-PLv" secondAttribute="trailing" id="usD-Wg-RUi"/>
+                <constraint firstAttribute="trailing" secondItem="5sw-ys-PLv" secondAttribute="trailing" constant="20" id="ElT-BV-X7L"/>
+                <constraint firstItem="5sw-ys-PLv" firstAttribute="centerY" secondItem="9wc-uD-j1C" secondAttribute="centerY" id="Fxq-40-EDa"/>
+                <constraint firstItem="okt-hJ-Nwz" firstAttribute="centerX" secondItem="5sw-ys-PLv" secondAttribute="centerX" id="M97-4f-mrz"/>
+                <constraint firstItem="PLk-MA-SoB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aR6-9O-F0e"/>
+                <constraint firstAttribute="bottom" secondItem="PLk-MA-SoB" secondAttribute="bottom" id="av4-jO-Oea"/>
+                <constraint firstItem="PLk-MA-SoB" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:3" id="cYH-cQ-J1I"/>
+                <constraint firstItem="9wc-uD-j1C" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="2:3" id="ef1-Jk-b6d"/>
+                <constraint firstItem="9wc-uD-j1C" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hMu-ds-kBc"/>
+                <constraint firstItem="9wc-uD-j1C" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iYj-wf-lIe"/>
+                <constraint firstItem="9wc-uD-j1C" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="1:2" id="ip0-3C-Az5"/>
+                <constraint firstItem="PLk-MA-SoB" firstAttribute="top" secondItem="9wc-uD-j1C" secondAttribute="bottom" id="t7a-f1-JtI"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="130.53435114503816" y="201.05633802816902"/>
@@ -119,10 +125,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

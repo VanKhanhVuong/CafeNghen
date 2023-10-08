@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountViewController" customModule="CafeNghen" customModuleProvider="target">
+            <connections>
+                <outlet property="accountTableView" destination="2nK-cf-xq1" id="noE-oM-ZX7"/>
+                <outlet property="logoutButton" destination="JMC-BK-iWA" id="MWD-R8-T4t"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMC-BK-iWA">
+                    <rect key="frame" x="20" y="748" width="353" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CHd-J7-NPf"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="systemGreenColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle.portrait.and.arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hR5-zi-x6j">
+                    <rect key="frame" x="40" y="761.33333333333337" width="24" height="23.666666666666629"/>
+                    <color key="tintColor" systemColor="systemGreenColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="dUo-qk-02s"/>
+                        <constraint firstAttribute="width" constant="24" id="rph-iB-ok4"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2nK-cf-xq1">
+                    <rect key="frame" x="0.0" y="59" width="393" height="669"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2nK-cf-xq1" secondAttribute="trailing" id="I3l-cV-HeW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JMC-BK-iWA" secondAttribute="bottom" constant="20" id="MtH-nt-udh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JMC-BK-iWA" secondAttribute="trailing" constant="20" id="NiW-cm-xDw"/>
+                <constraint firstItem="hR5-zi-x6j" firstAttribute="leading" secondItem="JMC-BK-iWA" secondAttribute="leading" constant="20" id="SgO-Gj-Ymw"/>
+                <constraint firstItem="JMC-BK-iWA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="aZC-6i-Fln"/>
+                <constraint firstItem="2nK-cf-xq1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="rzL-mT-dHP"/>
+                <constraint firstItem="JMC-BK-iWA" firstAttribute="top" secondItem="2nK-cf-xq1" secondAttribute="bottom" constant="20" id="xSm-n5-ZOn"/>
+                <constraint firstItem="hR5-zi-x6j" firstAttribute="centerY" secondItem="JMC-BK-iWA" secondAttribute="centerY" id="yYy-mb-BI0"/>
+                <constraint firstItem="2nK-cf-xq1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yrU-yA-y05"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

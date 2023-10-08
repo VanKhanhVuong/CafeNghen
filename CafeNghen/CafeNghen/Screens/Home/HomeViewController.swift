@@ -40,7 +40,7 @@ extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let sectionView = SectionView()
         sectionView.delegate = self
-        sectionView.configUI(title: "Set title")
+        sectionView.configUI(title: "Set title", isHiddenIcon: false)
         return sectionView
     }
     

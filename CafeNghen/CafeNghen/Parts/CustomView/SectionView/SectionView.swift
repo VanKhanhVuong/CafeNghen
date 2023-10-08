@@ -43,8 +43,9 @@ class SectionView: UIView {
         arrowButton.tintColor = UIColor.black
     }
     
-    func configUI(title: String) {
+    func configUI(title: String, isHiddenIcon: Bool) {
         self.titleLabel.text = title
+        self.arrowButton.isHidden = isHiddenIcon
     }
     
     @IBAction func seeAllTapped(_ sender: Any) {
